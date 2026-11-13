@@ -12,7 +12,7 @@ public class ReaderFile {
     public static void readFile () throws IOException {
         // create object of FileReader a subclass of Reader class
         Reader reader = new FileReader("D:/Password_Based_Authentication/File_Handling/file.txt");
-        // Read one character at a time from the file
+        // Read one character at a time from the files
         int data = reader.read();
         // convert the int to char and print
         while (data != -1) {
